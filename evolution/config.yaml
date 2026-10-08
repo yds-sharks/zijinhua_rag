@@ -1,4 +1,14 @@
-# 第一层记录循环配置
+# 自进化框架配置：第一层记录循环 + 第二层本地优化循环
+
+llm:
+  # OpenAI 兼容协议：GPT / DeepSeek / Qwen 均可，仅需改 api_base 与 model
+  api_base: https://api.openai.com/v1
+  # API Key 从环境变量读取，不写入本文件
+  api_key_env: OPENAI_API_KEY
+  model: gpt-4o-mini
+  temperature: 0.0
+  max_retries: 3
+  timeout: 60.0
 
 paths:
   # 数据存储根目录（相对 evolution/ 目录）
@@ -26,6 +36,20 @@ selection:
   strategy: topk
   # 若 strategy=threshold，最小分数阈值
   min_score: 0.0
+
+second_layer:
+  # "靠前"阈值：前 k 名视为靠前（对应混淆分类的 top/bottom 分界）
+  hit_k: 5
+  # 相关性裁判单次批量判定的文段数
+  judge_batch_size: 10
+  # 裁决：目标查询评估的 recall@k 参数
+  judge_k: 5
+  # 全局回归：若全局测试集 recall@5 平均下降超过该阈值则拒绝
+  regression_threshold: 0.02
+
+retarget:
+  # 第三层外部注入（预留，暂未实现）
+  enabled: false
 
 generation:
   # 生成模型：mock | api

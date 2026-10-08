@@ -25,6 +25,22 @@ class ConfusionCategory(str, Enum):
     UNKNOWN = "unknown"           # 尚未分析
 
 
+class RewriteStrategy(str, Enum):
+    """改造策略（第二层）。"""
+    SPLIT = "SPLIT"                     # 拆分主题混杂
+    CONTEXTUALIZE = "CONTEXTUALIZE"     # 补全疾病主体
+    ANCHOR = "ANCHOR"                   # 增加诊断锚点
+    RETIRE = "RETIRE"                   # 抑制重复竞争
+
+
+class OverlayStatus(str, Enum):
+    """OverlayUnit 生命周期状态。"""
+    PENDING = "pending"       # 待裁决
+    ACCEPTED = "accepted"     # 裁决通过，参与检索
+    REJECTED = "rejected"     # 裁决拒绝
+    DISABLED = "disabled"     # 人工停用（可回滚）
+
+
 @dataclass
 class RetrievalResult:
     """单条检索结果。"""
@@ -67,6 +83,59 @@ class GenerationRecord:
 
 
 @dataclass
+class OverlayUnit:
+    """PatchOverlay 单元：对 BaseIndex 已有文段的优化检索表达。"""
+    overlay_id: str
+    source_pk: int
+    source_file_name: Optional[str]
+    source_text: str
+    trigger_case_id: str
+    trigger_query: str
+    strategy: RewriteStrategy
+    strategy_reason: str
+    rewritten_text: str
+    status: OverlayStatus = OverlayStatus.PENDING
+    judge_report_id: Optional[str] = None
+    created_at: str = field(
+        default_factory=lambda: datetime.now(timezone.utc).isoformat()
+    )
+
+    def to_dict(self) -> Dict[str, Any]:
+        d = asdict(self)
+        d["strategy"] = self.strategy.value
+        d["status"] = self.status.value
+        return d
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> "OverlayUnit":
+        data = dict(data)
+        data["strategy"] = RewriteStrategy(data.get("strategy", "ANCHOR"))
+        data["status"] = OverlayStatus(data.get("status", "pending"))
+        return cls(**data)
+
+
+@dataclass
+class JudgeReport:
+    """自动裁决报告。"""
+    judge_id: str
+    overlay_id: str
+    target_case_id: str
+    target_query: str
+    metrics_before: Dict[str, Any] = field(default_factory=dict)
+    metrics_after: Dict[str, Any] = field(default_factory=dict)
+    global_regression: bool = False
+    conflict_detected: bool = False
+    passed: bool = False
+    reason: str = ""
+    timestamp: str = field(
+        default_factory=lambda: datetime.now(timezone.utc).isoformat()
+    )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
 class QueryCase:
     """一次查询的完整记录档案。"""
     case_id: str
@@ -79,6 +148,7 @@ class QueryCase:
     tags: List[str] = field(default_factory=list)
     related_overlay_ids: List[str] = field(default_factory=list)
     notes: Optional[str] = None
+    triage: Optional[str] = None  # ok | overlay_rewrite | knowledge_injection
 
     def to_dict(self) -> Dict[str, Any]:
         d = asdict(self)
