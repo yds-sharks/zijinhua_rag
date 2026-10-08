@@ -1,0 +1,44 @@
+# 第一层记录循环配置
+
+paths:
+  # 数据存储根目录（相对 evolution/ 目录）
+  data_root: ./data
+  query_cases_dir: ./data/query_cases
+  overlay_units_dir: ./data/overlay_units
+  judge_reports_dir: ./data/judge_reports
+
+retrieval:
+  # 调用现有病理检索链路的方式：server | local
+  mode: server
+  # 常驻服务地址
+  server_url: http://127.0.0.1:8765
+  # 本地直连配置（mode=local 时使用，相对 evolution/ 目录）
+  local_config: ../pathology_retrieval/insert/config.yaml
+  # 记录时召回数量（用于后续混淆分析）
+  record_topk: 30
+  # 最终喂给生成模型的文段数量
+  select_topk: 5
+  # 请求服务超时（秒）
+  timeout: 120.0
+
+selection:
+  # 选择策略：topk（取前 N）| threshold（按分数阈值）
+  strategy: topk
+  # 若 strategy=threshold，最小分数阈值
+  min_score: 0.0
+
+generation:
+  # 生成模型：mock | api
+  mode: mock
+  # api 模式下的模型名称（预留）
+  model_name: qwen2.5-72b
+  # mock 模式下的默认回答模板
+  mock_template: "[MOCK] 基于检索到的 {num_chunks} 条文段，生成回答。"
+
+logging:
+  # 是否自动保存所有查询
+  auto_save: true
+  # 默认标签
+  default_label: auto
+  # 是否同时打印到控制台
+  verbose: true

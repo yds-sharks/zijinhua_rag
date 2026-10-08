@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / 工具缓存
+.qoder/
+.vscode/
+.idea/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 系统
+.DS_Store
+
+# 数据库文件（原始大库不在本仓库管理，路径见 pathology_retrieval/insert/config.yaml）
+*.db
+
+# 说明：evolution/data/ 下的 QueryCase 档案属于实验资产，默认纳入版本管理；
+# 若未来数据量过大，可将 query_cases/ 移出仓库另行备份。

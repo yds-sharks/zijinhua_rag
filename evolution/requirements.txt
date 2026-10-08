@@ -1,0 +1,4 @@
+# evolution 模块额外依赖
+# 基础依赖与 pathology_retrieval 保持一致，见 ../pathology_retrieval/requirements.txt
+
+pyyaml>=6.0

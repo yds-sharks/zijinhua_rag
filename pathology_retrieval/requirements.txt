@@ -1,0 +1,11 @@
+# 病理向量库检索链路复现依赖
+# 注意：pymilvus 和 milvus-lite 版本必须匹配，否则无法打开本地 .db 文件。
+# 原向量库使用 pymilvus 2.4.x + milvus-lite 2.4.x 生成。
+numpy>=1.26.0
+torch>=2.0
+sentence-transformers>=3.0
+pymilvus==2.4.10
+milvus-lite==2.4.11
+jieba
+scipy
+pyyaml

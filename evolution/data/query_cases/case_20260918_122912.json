@@ -1,0 +1,513 @@
+{
+  "case_id": "case_20260918_122912",
+  "query": "宫颈癌的病理诊断要点是什么？",
+  "timestamp": "2026-09-18T12:29:12.517053+00:00",
+  "retrieval": {
+    "topk": 30,
+    "results": [
+      {
+        "rank": 1,
+        "pk": 460316045491836000,
+        "score": 1.0560269355773926,
+        "dense": 0.0,
+        "sparse": 2.6400673389434814,
+        "file_name": "新插入文件.json",
+        "text": "宫颈癌的病理类型绝大部分为鳞癌。",
+        "summary": "宫颈癌主要病理类型是鳞癌。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 2,
+        "pk": 460315846380977359,
+        "score": 0.7433152675628663,
+        "dense": 0.0,
+        "sparse": 1.8582881689071655,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "本研究显示，CA125与宫颈癌临床病理特征有密切联系，对评估不同病理分期、分化程度以及有无淋巴结转移具有一定的价值。炎症反应、凝血相关生化指标与宫颈癌的临床病理特征有一定的相关性，对于宫颈癌的病理分期、分化程度以及淋巴结转移情况均能提供参考价值，但对于宫颈癌的病理类型并未存在确定联系。",
+        "summary": "研究揭示CA125与宫颈癌临床病理紧密相连，评估分期、分化及淋巴结转移有价值。炎症反应和凝血指标亦与此相关，为宫颈癌诊断提供参考，但对病理类型无定论。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 3,
+        "pk": 460315866394905903,
+        "score": 0.5785494327545166,
+        "dense": 0.0,
+        "sparse": 1.4463735818862915,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "RESOLVE技术生成的ADC值可以部分反映宫颈癌的病理类型、分化程度和分期，具有一定的临床价值。",
+        "summary": "RESOLVE technology's ADC value aids in assessing cervical cancer's pathology, differentiation, and staging, offering clinical significance.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 4,
+        "pk": 460315872315172894,
+        "score": 0.49190187454223633,
+        "dense": 0.0,
+        "sparse": 1.2297546863555908,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "Beyer Jr.在1964年发表的文章中讨论了宫颈癌的病理分期。",
+        "summary": "The article discusses pathologic staging for cervical cancer in a 1964 publication by Beyer Jr.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 5,
+        "pk": 460315845623904465,
+        "score": 0.49190187454223633,
+        "dense": 0.0,
+        "sparse": 1.2297546863555908,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "宫颈癌的病理分期与临床分期存在差异性，影响淋巴结转移的关键危险因素包括浸润和肿瘤直径。",
+        "summary": "研究发现，宫颈癌的病理分期与临床分期存在差异性，影响淋巴结转移的关键危险因素包括浸润和肿瘤直径。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 6,
+        "pk": 460315836378861882,
+        "score": 0.49190187454223633,
+        "dense": 0.0,
+        "sparse": 1.2297546863555908,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "研究探讨了未接触己烯雌酚的女性中，子宫颈I-II期宫颈癌的病理和预后。",
+        "summary": "Summary: This study examines pathology and outcomes of stage I-II cervical cancer in non-diethylstilbestrol-exposed women.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 7,
+        "pk": 460316097171208389,
+        "score": 0.46192213296890255,
+        "dense": 0.7698702216148376,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "病理诊断是宫颈癌诊断金标准，准确性较高，比如病理活检、术后病理石蜡切片等，但临床现阶段临床对上述两种方法诊断宫颈癌的效能存在一定争 议。在2018年1月到2022年12月间选择167例疑似是宫颈癌的患者，30-66岁（/ 48.35±6.35） 岁。纳入标准：出现白带异常、阴道流血或者阴道流液、性交痛等症状的患者；HPV 检查发生高危型HPV阳性的患者；",
+        "summary": "本文选取2018年至2022年间疑似宫颈癌患者167例，年龄30-66岁（平均48.35±6.35岁），研究对象需有白带异常、阴道出血或液体、性交痛等症状，并且HPV检查呈高危型阳性。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 8,
+        "pk": 460315924377547822,
+        "score": 0.4580353260040283,
+        "dense": 0.7633922100067139,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "病理诊断是宫颈癌诊断的金标准，准确性较高，如病理活检和术后病理石蜡切片等。然而，临床上对这两种方法在诊断宫颈癌效能上的争议仍然存在。研究选取了2018年1月至2022年12月间的167例疑似宫颈癌患者，年龄30-66岁（平均48.35±6.35岁），纳入标准包括白带异常、阴道流血或流液、性交痛等症状，以及HPV检查呈高危型阳性。",
+        "summary": "本文选取2018年至2022年间疑似宫颈癌患者167例，年龄30-66岁（平均48.35±6.35岁），研究对象需有白带异常、阴道出血或液体、性交痛等症状，并且HPV检查呈高危型阳性。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 9,
+        "pk": 460315909410682877,
+        "score": 0.4570956230163574,
+        "dense": 0.7618260383605957,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "宫颈癌的临床诊断应遵循“三步”原则：宫颈细胞学检查、阴道镜检查和病理检查，其中病理检查是诊断宫颈癌的金标准。",
+        "summary": "Subject: Cervical Cancer Diagnosis Process.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 10,
+        "pk": 460315773189776564,
+        "score": 0.4555534243583679,
+        "dense": 0.7592557072639465,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "子宫颈病变的诊断与治疗要点。",
+        "summary": "Subject: Key Points in Cervical Lesion Diagnosis and Treatment",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 11,
+        "pk": 460316148321575984,
+        "score": 0.44855947494506837,
+        "dense": 0.7475991249084473,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "关键词宫颈肿瘤临床特征病理学特征",
+        "summary": "研究宫颈肿瘤，关注其临床和病理学特征，以期提高诊断与治疗效果。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 12,
+        "pk": 460316097171208188,
+        "score": 0.44575402736663816,
+        "dense": 0.742923378944397,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "在宫颈疾病的相关诊断中，宫 制定的《乳腺及女性生殖器官肿瘤病理学和遗传学系统肿瘤 颈活检病理诊断为金标准。通过对可疑病变区域进行定位 分类》[6]，细胞学诊断命名参考（the bethesda system，TBS） 活检，取材准确性较高，且可对疾病的转归及发展进行动态 诊断系统[7]。跟踪随访，在宫颈病变的筛查过程及宫颈癌前病变的研究中 活检组织学诊断标准为：①正常或炎症；",
+        "summary": "活检用于宫颈疾病诊断，定位准确，动态跟踪，标准包括正常、炎症等分类。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 13,
+        "pk": 460316150186469498,
+        "score": 0.44559667110443113,
+        "dense": 0.7426611185073853,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "病理诊断检测诊断标准：将宫颈上皮内瘤较高 的宫颈上皮内瘤变可能会发展为浸润癌，如果 变分级作为病理诊断判断的依据，主要包括宫颈上皮内瘤、宫颈癌、宫颈人乳头瘤病毒感染、慢性宫颈黏膜炎和 宫颈肌瘤等[8]。所有病理切片均由2名及以上病理科主治医师分别对其阅片并做出准确的判断。目前，宫颈癌作为一种已知癌症中唯一能够确定患病原因的癌症，临床上能够预防和彻底治好，并保证不会复发[14，15]。",
+        "summary": "通过病理诊断标准评估宫颈上皮内瘤变等疾病，由两名主治医师共同确认；宫颈癌可预防及根治。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 14,
+        "pk": 460316113625477195,
+        "score": 0.44474723339080807,
+        "dense": 0.7412453889846802,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "病理诊断 DOI：10.14163/j.cnki宫颈癌作为生殖系统疾病,属于临床发病率较高的恶性肿瘤之一。该疾病的主要特点是可判定为阴性细胞或阳性细胞，其中阳性细胞占比是诊断的重要依据。有研究表明，其发病率仅次于乳腺癌。若阳性细胞占比≥6%，则被认定为标本阳性。宫颈癌主要从宫颈上皮内瘤变开始，并进一步发展。",
+        "summary": "宫颈癌为高发恶性肿瘤，通过阴性、阳性细胞判定诊断，阳性比例指导治疗决策，仅次于乳腺癌发病率，阳性细胞占比达6%即判为阳性，起始于宫颈上皮内瘤变。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 15,
+        "pk": 460315924377547835,
+        "score": 0.44306298494338986,
+        "dense": 0.7384383082389832,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "临床对于宫颈癌的检查包括病理学活检和影像学检查两大部分。病理学通过组织切片明确诊断，指导分期与治疗策略制定；影像学则借助阴道镜、CT及MRI辅助判断。",
+        "summary": "临床对于宫颈癌的检查包括病理学活检和影像学检查两大部分。病理学通过组织切片明确诊断，指导分期与治疗策略制定；影像学则借助阴道镜、CT及MRI辅助判断。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 16,
+        "pk": 460312585550175483,
+        "score": 0.4425231099128723,
+        "dense": 0.7375385165214539,
+        "sparse": 0.0,
+        "file_name": "年轻妇女宫颈癌临床及病理分析_stage3_summary_cleaned.json",
+        "text": "年轻妇女宫颈癌的临床及病理特征分析。",
+        "summary": "该研究聚焦于年轻女性宫颈癌的临床表现与病理特征。",
+        "metadata": {
+          "source": "年轻妇女宫颈癌临床及病理分析_stage3_summary_cleaned.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 17,
+        "pk": 460315926995321068,
+        "score": 0.4399552345275879,
+        "dense": 0.7332587242126465,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "病理诊断检测标准：宫颈上皮内瘤变可能会发展为浸润癌，变分级作为病理诊断判断的依据，主要包括宫颈上皮内瘤、宫颈癌、宫颈人乳头瘤病毒感染、慢性宫颈黏膜炎和宫颈肌瘤等。所有病理切片均由两名及以上病理科主治医师分别阅片并做出准确判断。目前，宫颈癌作为一种已知癌症中唯一能够确定患病原因的癌症，临床上能够预防和彻底治愈，并保证不会复发。",
+        "summary": "通过病理诊断标准评估宫颈上皮内瘤变等疾病，由两名主治医师共同确认；宫颈癌可预防及根治。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 18,
+        "pk": 460316098338274235,
+        "score": 0.4372445225715637,
+        "dense": 0.7287408709526062,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "现如今，临床对于宫颈癌的检查项目有很多，主要是病理学检查以及影像学检查等其中，病理学检查是以组织病理活检结果为基础，在对患者病变组织进行切取后明确病理诊断之后临床医生结合患者临床特性、影像学结果等确定患者的临床分期，对后期诊疗方案制定以及病人远期存活率存在重要的意义；而影像学检查手段主要是阴道镜检查、CT检查以及磁共振检查等。",
+        "summary": "临床对于宫颈癌的检查包括病理学活检和影像学检查两大部分。病理学通过组织切片明确诊断，指导分期与治疗策略制定；影像学则借助阴道镜、CT及MRI辅助判断。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 19,
+        "pk": 460316094035176604,
+        "score": 0.43714327812194825,
+        "dense": 0.7285721302032471,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "从2004年到2017年，AC相对于SCC 的比例从19.4% 增加到23.2%，而且与SCC 相比，患有AC 的女性更年轻[204]。因此，早期诊断并制定个性化的治疗方案具有重 要的意义。宫颈癌诊断的金标准是病理诊断，主要推荐宫颈细胞学[222]及宫颈活检[207]。宫颈细胞学检查从宫颈转化区获得的细胞和核异常。",
+        "summary": "从2004年到2017年，AC在SCC中的比例由19.4%增至23.2%，患有AC的女性更年轻。早期诊断及个性化治疗至关重要。金标准是病理诊断，主要通过宫颈细胞学和活检进行，以检测转化区细胞和核异常。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 20,
+        "pk": 460315892903459110,
+        "score": 0.43647630214691163,
+        "dense": 0.727460503578186,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "检测肿瘤标志物，并分析宫颈癌患者的六项肿瘤标志物与临床病理之间的相关性。",
+        "summary": "A study analyzed correlations between six tumor markers and clinical pathology in cervical cancer patients.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 21,
+        "pk": 460316064065801305,
+        "score": 0.43608927726745605,
+        "dense": 0.7268154621124268,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "宫颈癌为常见恶性肿瘤，发病率较高，患者早 癌患者的病理分型、临床分期，或可为临床治疗方 期症状并不明显，晚期以阴道排液、流血为主要表 案的拟订提供参考依据，以改善患者预后。MRI 现，病死率较高，患者预后较差[1]。因此，明确宫颈 检查具有多序列、多方位成像的特点，可显示病灶特征，是宫颈癌患者重要的检查方式，但其对于宫及速率常数（rate constant，K）的图像处理。",
+        "summary": "MRI检查在宫颈癌诊断中扮演关键角色，能提供病灶特征信息，有助于制定更有效的治疗方案和改善患者预后。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 22,
+        "pk": 460316123543179209,
+        "score": 0.4360517978668213,
+        "dense": 0.7267529964447021,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "年轻妇女宫颈癌临床及病理分析",
+        "summary": "该研究聚焦于年轻女性宫颈癌的临床表现与病理特征。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 23,
+        "pk": 460315796092270591,
+        "score": 0.4348726630210876,
+        "dense": 0.7247877717018127,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "宫颈癌是临床常见恶性肿瘤，恶性程度高，有较高的病死率，且近年来发病率呈递增趋势，对女性健康造成严重影响。病理组织活检是诊断宫颈癌的金标准，但其属于一种创伤性操作，不适用于大面积推广。",
+        "summary": "摘要：2019年，宫颈癌作为高恶性肿瘤，病死率高且发病率递增，严重威胁女性健康。病理活检虽为诊断金标准，但具有创伤性，限制了其广泛应用。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 24,
+        "pk": 460316141736513817,
+        "score": 0.4343914031982422,
+        "dense": 0.0,
+        "sparse": 1.0859785079956055,
+        "file_name": "新插入文件.json",
+        "text": "本研究显示,CA125与宫颈癌临床病理特征有密切联系,对评估不同病理分期、分化程度以及有无淋巴结转移具有一定的价值,此结论在既往的相关研究中也能得到证实[22]。综上所述,炎症反应、凝血相关生化指标与宫颈癌的临床病理特征有一定的相关性,对于宫颈癌的病理分期、分化程度以及淋巴结转移情况均能提供参考价值,但对于宫颈癌的病理类型并未存在确定联系。",
+        "summary": "研究揭示CA125与宫颈癌临床病理紧密相连，评估分期、分化及淋巴结转移有价值。炎症反应和凝血指标亦与此相关，为宫颈癌诊断提供参考，但对病理类型无定论。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 25,
+        "pk": 460315772161384743,
+        "score": 0.43342784643173216,
+        "dense": 0.722379744052887,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "关键词：宫颈肿瘤，临床特征，病理学特征。",
+        "summary": "研究宫颈肿瘤，关注其临床和病理学特征，以期提高诊断与治疗效果。",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 26,
+        "pk": 460316069583413125,
+        "score": 0.43313755989074704,
+        "dense": 0.7218959331512451,
+        "sparse": 0.0,
+        "file_name": "新插入文件.json",
+        "text": "手术病理 宫颈上皮内病变（Cervical Intraepithelial 活检病理 合计 Neoplasia, CIN）是宫颈癌的前期病变及时准确的诊断CIN SCC对于预防宫颈癌的发生至关重要[10]结果显示TCT技术CIN 77 0 77 对于CIN、SCC的检出具有较高的灵敏度和特异性 数据表 SCC 0 3 3 3中 TCT检测 CIN的灵敏度为80",
+        "summary": "手术病理分析显示，宫颈上皮内病变（CIN）是宫颈癌前病变，及时准确诊断CIN、SCC能有效预防宫颈癌。TCT技术在检测CIN方面具有高灵敏度和特异性，对于SCC的检出效果也较好，其中CIN的灵敏度为80%。",
+        "metadata": {
+          "source": "新插入文件.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 27,
+        "pk": 460315821004362697,
+        "score": 0.4318488478660583,
+        "dense": 0.7197480797767639,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "目前，宫颈癌的诊断方法是由专业医生在显微镜下逐一寻找癌细胞。",
+        "summary": "The current method for diagnosing cervical cancer involves professional doctors examining microscopic samples for cancer cells.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 28,
+        "pk": 460312587527005425,
+        "score": 0.4312821865081787,
+        "dense": 0.7188036441802979,
+        "sparse": 0.0,
+        "file_name": "早期宫颈癌的病理诊断讨论_stage3_summary_cleaned.json",
+        "text": "早期宫颈癌的病理诊断关键在于原位鳞状细胞癌的有无浸润、浸润深度及宽度、是否伴有脉管瘤栓。由于宫颈腺体的异型增生、原位腺癌、早期浸润性腺癌等并没有像鳞状细胞癌的早期病变那样有相对明确的定义和诊断标准，在病理诊断时常有不同的意见，其诊断结果重复性差，给临床治疗带来很大的不便。这也是宫颈癌病理诊断的难点。",
+        "summary": "早期宫颈癌诊断聚焦于原位鳞状细胞癌有无浸润、深度及宽度，并关注腺体异型增生等复杂情况，导致病理结果重复性差，影响临床治疗，是宫颈癌病理诊断难点。",
+        "metadata": {
+          "source": "早期宫颈癌的病理诊断讨论_stage3_summary_cleaned.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 29,
+        "pk": 460312583175410264,
+        "score": 0.4310491919517517,
+        "dense": 0.7184153199195862,
+        "sparse": 0.0,
+        "file_name": "宫颈环形电切术（LEEP）与宫颈冷刀锥切术（CKC）治疗高级别上皮内瘤变的疗效比较_stage3_summary_cleaned.json",
+        "text": "宫颈活检是确诊宫颈癌及癌前病变最可靠且不可缺少的方法。任何肉眼可见病灶均应做单点或多点活检，如可疑病变但无肉眼可见病灶，可选择在转化区取一定点处活检。病理学诊断结果包括正常、炎症、息肉、尖锐湿疣、鳞癌、腺癌、原位癌及浸润癌。",
+        "summary": "宫颈活检是确诊宫颈病变关键方法，包括正常、炎症、息肉等，以及尖锐湿疣、鳞癌、腺癌等多种异常。",
+        "metadata": {
+          "source": "宫颈环形电切术（LEEP）与宫颈冷刀锥切术（CKC）治疗高级别上皮内瘤变的疗效比较_stage3_summary_cleaned.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      },
+      {
+        "rank": 30,
+        "pk": 460315926995321051,
+        "score": 0.42990860939025877,
+        "dense": 0.7165143489837646,
+        "sparse": 0.0,
+        "file_name": "gpt清洗文件-中文.json",
+        "text": "研究比较了宫颈癌筛查中阴道镜检查阳性与宫颈病理诊断的价值。",
+        "summary": "The study compares the value of positive colposcopy versus cervical pathological diagnosis in cervical cancer screenings.",
+        "metadata": {
+          "source": "gpt清洗文件-中文.json"
+        },
+        "is_relevant": null,
+        "confusion_category": "unknown",
+        "notes": null
+      }
+    ],
+    "latency_ms": 10453.488986939192
+  },
+  "selected_chunks": [
+    460316045491836000,
+    460315846380977359,
+    460315866394905903,
+    460315872315172894,
+    460315845623904465
+  ],
+  "generation": {
+    "model": "qwen2.5-72b",
+    "output": "[MOCK] 基于检索到的 5 条文段，生成回答。\n\n查询：宫颈癌的病理诊断要点是什么？\n\n参考文段预览：\n[1] 宫颈癌的病理类型绝大部分为鳞癌。...\n[2] 本研究显示，CA125与宫颈癌临床病理特征有密切联系，对评估不同病理分期、分化程度以及有无淋巴结转移具有一定的价值。炎症反应、凝血相关生化指标与宫颈癌的临床病理...\n[3] RESOLVE技术生成的ADC值可以部分反映宫颈癌的病理类型、分化程度和分期，具有一定的临床价值。...\n[4] Beyer Jr.在1964年发表的文章中讨论了宫颈癌的病理分期。...\n[5] 宫颈癌的病理分期与临床分期存在差异性，影响淋巴结转移的关键危险因素包括浸润和肿瘤直径。...",
+    "prompt": "请根据以下文段回答问题：宫颈癌的病理诊断要点是什么？\n\n文段 1（来源：新插入文件.json）：\n宫颈癌的病理类型绝大部分为鳞癌。\n\n文段 2（来源：gpt清洗文件-中文.json）：\n本研究显示，CA125与宫颈癌临床病理特征有密切联系，对评估不同病理分期、分化程度以及有无淋巴结转移具有一定的价值。炎症反应、凝血相关生化指标与宫颈癌的临床病理特征有一定的相关性，对于宫颈癌的病理分期、分化程度以及淋巴结转移情况均能提供参考价值，但对于宫颈癌的病理类型并未存在确定联系。\n\n文段 3（来源：gpt清洗文件-中文.json）：\nRESOLVE技术生成的ADC值可以部分反映宫颈癌的病理类型、分化程度和分期，具有一定的临床价值。\n\n文段 4（来源：gpt清洗文件-中文.json）：\nBeyer Jr.在1964年发表的文章中讨论了宫颈癌的病理分期。\n\n文段 5（来源：gpt清洗文件-中文.json）：\n宫颈癌的病理分期与临床分期存在差异性，影响淋巴结转移的关键危险因素包括浸润和肿瘤直径。",
+    "has_hallucination": null,
+    "is_satisfactory": false,
+    "latency_ms": 0.01388508826494217
+  },
+  "label": "pending",
+  "tags": [
+    "待分析",
+    "排序问题"
+  ],
+  "related_overlay_ids": [],
+  "notes": "研究者认为关键文段排名靠后，需要进一步分析。"
+}
